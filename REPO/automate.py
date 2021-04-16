@@ -305,7 +305,7 @@ def mail(N,M):
 	ext=N+"'s Report"+".pptx"
 	address=add+ext
 
-	fromaddr ='logansai67@gmail.com'
+	fromaddr ='' # ENTER MAIL ID!!!!!!!!!!!!!!
 	toaddr = M
 
 	# instance of MIMEMultipart 
@@ -351,7 +351,7 @@ def mail(N,M):
 	s.starttls() 
 	
 	# Authentication 
-	s.login(fromaddr, "*1z2x3c4v*") #WARNING...................
+	s.login(fromaddr, "") #ENTER MAIL PASSWORD !!!!!    WARNING...................
 	
 	# Converts the Multipart msg into a string 
 	text = msg.as_string() 
