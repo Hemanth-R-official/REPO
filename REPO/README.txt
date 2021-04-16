@@ -8,4 +8,7 @@ STEP 2: INSTALL BELOW MENTIONED PACKAGES:
                   6. smtplib 
                   7. email 
                   8. import cv2
-STEP 3: RUN REPO.PY
+STEP 4: EDIT automate.py "LINE 308" ENTER SENDER MAIL ID
+STEP 5: EDIT automate.py "LINE 354" ENTER SENDER PASSWORD
+STEP 6: RUN REPO.PY
+STEP 7: END
